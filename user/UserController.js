@@ -52,8 +52,12 @@ router.delete('/:id', function(req, res) {
 });
 
 // update
-router.put("/:id", function(req, res) {
-    user.findByIdAndUpdate(req.params.id, function(err, user) {
+router.put('/:id', function(req, res) {
+    user.findByIdAndUpdate(req.params.id, {
+        name: req.body.name,
+        email: req.body.email,
+        password: req.body.password
+    }, function(err, user) {
         if(err)
             return res.status(500).send("Error: " + err);
         res.status(200).send(user);

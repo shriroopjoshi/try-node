@@ -2,7 +2,7 @@
   "name": "rest-node",
   "version": "1.0.0",
   "description": "This is a test-project to try out REST API in node",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "test"
   },
