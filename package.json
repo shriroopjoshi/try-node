@@ -1,0 +1,16 @@
+{
+  "name": "rest-node",
+  "version": "1.0.0",
+  "description": "This is a test-project to try out REST API in node",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Shriroop",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^5.0.7"
+  }
+}
