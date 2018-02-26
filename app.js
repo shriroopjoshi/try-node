@@ -54,6 +54,7 @@ if(isProduction) {
 
 // models and router
 require('./models/User');
+require('./config/passport');
 require('./routes');
 // app.use(app.router);
 // routes.initilize(app);
