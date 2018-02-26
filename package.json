@@ -4,7 +4,7 @@
   "description": "This is a test-project to try out REST API in node",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "test": ""
   },
   "author": "Shriroop",
   "license": "ISC",
