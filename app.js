@@ -52,8 +52,9 @@ if(isProduction) {
     mongoose.set('debug', true);
 }
 
-// router
-var routes = require('./routes');
+// models and router
+require('./models/User');
+require('./routes');
 // app.use(app.router);
 // routes.initilize(app);
 // No need for these lines now. Read the migration guide:
