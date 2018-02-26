@@ -1,4 +1,9 @@
 // db.js
+// contains db credentials for dev-env
 
-var mongoose = require('mongoose');
-mongoose.connect('mongodb://first-user:resu-tsrif@ds147518.mlab.com:47518/testdb-app')
+// mongodb://<user>:<password>@ds147518.mlab.com:47518/testdb-app
+module.exports = {
+    user: 'first-user',
+    password: 'resu-tsrif',
+    conn_url: 'ds147518.mlab.com:47518/testdb-app'
+}
